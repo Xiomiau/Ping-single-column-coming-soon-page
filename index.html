@@ -21,26 +21,34 @@
         <!-- h4 -->
     <p class="subtitle">  Subscribe and get notified</p>
     </div>
+
         <!-- input -->
+    
     <div class="inputButton">
-      <input placeholder="Your email address..." type="email">
+      <div class="error">
+        <input id="email" placeholder="Your email address..." type="email">
+      <p class="inactive" id="error"></p>
+      </div>
         <!-- boton -->
-    <button><p>Notify Me</p></button>
+    <button id="notify" type="submit"><p>Notify Me</p></button>
     </div>
+  
+    
         <!-- imagen -->
     <div class="img"></div>
         <!-- social media -->
         <ul class="socialMedia">
-          <li class="fb">Facebook</li>
-          <li class="tw">Twitter</li>
-          <li class="ins">Instagram</li>
+        <li class="iconContainer fb"> <a> </a></li>
+        <li class="iconContainer tw"> <a> </a></li>
+        <li class="iconContainer ins"> <a ></a></li>
         </ul>
 
 
 
-  &copy; Copyright Ping. All rights reserved.
-
+  
+        <script src="/main.js"></script>
   <footer>
+    <p>&copy; Copyright Ping. All rights reserved.</p>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://www.frontendmentor.io/profile/Xiomiau">Xiomiau</a>.

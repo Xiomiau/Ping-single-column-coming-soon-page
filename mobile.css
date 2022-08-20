@@ -59,13 +59,14 @@ input {
     height: 50px;
     padding: 20px;
     border-radius: 30px;
-    margin: 10px;
+    margin: 10px au;
     border: 1px solid var(--Blue);
+    outline: none;
 }
 
 input::placeholder{
     color: var(--Blue);
-    opacity: .4;
+    opacity: .3;
 }
 
 button {
@@ -92,9 +93,58 @@ button {
     margin: 0 auto;
 }
 
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
 .fb {
+    background-image: url(/images/104498_facebook_icon.png);
+}
+
+.tw {
+    background-image: url(/images/104501_twitter_bird_icon.png);
+}
+
+.ins{
+    background-image: url(/images/1161953_instagram_icon.png);
+}
+.iconContainer {
+    background-size: 15px;
     width: 20px;
     height: 20px;
-    background-image: url(/images/104498_facebook_icon.png);
-    background-size: contain;
+    margin: 5px;
+    opacity: .7;
+    list-style: none;
+    border: 1px solid rgba(115, 115, 247, 0.253);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+}
+
+footer {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+footer p {
+    color: var(--Gray);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Light-Red);
+    font-weight: bold;
+}
+
+.inactive {
+    color: red;
+    font-style: italic;
+    font-size: 1.4rem;
+    text-align: center;
 }
