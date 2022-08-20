@@ -59,7 +59,7 @@ input {
     height: 50px;
     padding: 20px;
     border-radius: 30px;
-    margin: 10px au;
+    margin: 10px auto;
     border: 1px solid var(--Blue);
     outline: none;
 }
@@ -74,7 +74,7 @@ button {
     height: 50px;
     border-radius: 30px;
     background-color: var(--Blue);
-    margin: 0 10px;
+    margin: 10px auto;
     border: none;
     color: white;
     font-weight: bold;
